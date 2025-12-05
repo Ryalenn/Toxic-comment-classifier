@@ -30,7 +30,7 @@ with open('NLP_BEST_Model.pkl', 'rb') as file:
     loaded_model = pickle.load(file)
 
 # The sencence that's gonna be analysed
-sentence = "jew"
+sentence = "dumb"
 preprocessedSentence = preprocessing(sentence)
 
 # Perform predictions on the test set
@@ -43,4 +43,5 @@ list_classes = ["toxic", "severe_toxic", "obscene", "threat", "insult", "identit
 print("Your message has been detected with this classes : ")
 for i in range (len(list_classes)):
     if (y_pred[0][i] == 1):
+
         print(list_classes[i])
