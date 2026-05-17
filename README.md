@@ -182,7 +182,7 @@ sentence = "your text here"
 ├── train.csv
 ├── Train_model.py
 ├── Use_model.py
-└── NLP_BEST_Model.pkl     # created after training
+└── NLP_BEST_Model.pkl   
 ```
 
 ---
